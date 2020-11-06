@@ -14,11 +14,11 @@ public class Ejercicio_13 {
 		
 		
 		do {
-			total = total + num;
+			total = total + cont;
 			
 			cont = cont + 1;
-		} while (cont != num);
-		
+			
+		} while (cont <= num);
 		
 		System.out.println(total);
 		
